@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to **Task Force**, where your coding skills will be tested in building a secure, functional, and well-documented **Recipe CRUD API**. This task challenges you to create an API that allows authenticated users to manage recipes in a SQLite database. You will need to ensure proper API key-based authentication and safeguard the API against SQL injection attacks. Additionally, you will write unit tests to verify that your implementation meets all the requirements.
+Welcome to **Task Force**, where your coding skills will be tested in building a secure, functional, and well-documented **Recipe CRUD API**. This task challenges you to create an API that allows authenticated users to manage recipes in a SQLite database. You will need to ensure proper API key-based authentication and safeguard the API against SQL injection attacks. Additionally, we have written unit tests to verify that your implementation meets all the requirements.
 
 Your API should be capable of the following:
 - **CRUD Operations**: Create, Read, Update, and Delete recipes.
@@ -207,12 +207,20 @@ endpoints:
 
 ## Testing
 
-Your code must pass all the unit tests pro **Python's `unittest` framework** to validate your API. Tests should include:
+Your code must pass all the unit tests provided in the test.py file created using **Python's `unittest` framework** to validate your API. To pass the test you should include:
 
-- Testing CRUD operations (create, read, update, delete).
-- Testing API key authentication.
-- Testing error responses (e.g., 404 for non-existing recipes, 401 for unauthorized access).
-- Testing for SQL injection vulnerabilities.
+- CRUD operations (create, read, update, delete).
+- API key authentication.
+- Error responses (e.g., 404 for non-existing recipes, 401 for unauthorized access).
+- Prevention for SQL injection vulnerabilities.
+
+You can check if you pass the tests by running
+
+```bash
+python3 src/test.py
+```
+
+in a terminal window open in the project directory
 
 ---
 
@@ -230,5 +238,4 @@ Your submission should include the following:
 
 ## Good Luck!
 
-We wish you the best of luck in completing the task. This is your chance to show your skills in building secure, scalable APIs. Make sure to focus on best practices, clean code, and effective testing!
-
+We wish you the best of luck in completing the task. This is your chance to show your skills in building secure, scalable APIs. Make sure to focus on best practices and clean code!
