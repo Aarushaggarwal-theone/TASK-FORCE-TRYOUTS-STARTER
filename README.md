@@ -11,6 +11,8 @@ Your API should be capable of the following:
 - **Security**: SQL injection prevention.
 - **Testing**: Write unit tests for all functionalities.
 
+You can also gain +5 bonus points for submitting a well-structured and accurate YAML file outlining your api endpoints and usage
+
 ---
 
 ## Task Requirements
@@ -115,7 +117,7 @@ Ensure that all database interactions are **protected against SQL injection** by
 
 ## YAML Structure Example
 
-To ensure your API is well-structured, you are required to create a **YAML file** that outlines the API structure. Below is an example structure you can follow, but ensure you create your own design:
+To recieve the bonus of 5 points, you have the option to create a **YAML file** that outlines the API structure. Below is an example structure you can follow, but ensure you create your own design:
 
 ```yaml
 api:
@@ -229,11 +231,12 @@ in a terminal window open in the project directory
 Your submission should include the following:
 1. **API source code**: Flask or any other framework in Python
 2. **SQLite database**: Include a pre-populated `recipes.db` file with sample data.
-3. **YAML file**: A structured `api.yaml` describing the API.
-4. **Unit tests**: Python `unittest` file that tests all API endpoints.
-5. **README**: A short explanation of how to run the API and tests.
+3. **Unit tests**: Python `unittest` file that tests all API endpoints.
+4. **README**: A short explanation of how to run the API and tests.
+5. **Virtual Environment**: A `requirements.txt` file listing all the python dependancies used in your codebase to emulate the environment needed by your source code to run
 
-6. **Virtual Environment**: A `requirements.txt` file listing all the python dependancies used in your codebase to emulate the environment needed by your source code to run
+For 5 extra points - **YAML file**: A structured `api.yaml` describing the API.
+
 ---
 
 ## Good Luck!
